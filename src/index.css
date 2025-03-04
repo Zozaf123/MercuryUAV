@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply relative overflow-hidden bg-gradient-to-r from-[#B21010] via-[#CF6015] to-[#EBB11A] 
+           text-white px-8 py-3 rounded-full font-semibold
+           transform transition-all duration-300 ease-out
+           hover:scale-105 hover:shadow-lg hover:shadow-[#B21010]/20
+           active:scale-95 active:shadow-inner;
+  }
+
+  .btn-primary::before {
+    @apply content-[''] absolute inset-0 bg-gradient-to-r 
+           from-[#CF6015] via-[#EBB11A] to-[#B21010]
+           opacity-0 transition-opacity duration-300 ease-out;
+  }
+
+  .btn-primary:hover::before {
+    @apply opacity-100;
+  }
+
+  .btn-primary span {
+    @apply relative z-10;
+  }
+}
