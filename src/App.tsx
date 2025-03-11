@@ -1,8 +1,10 @@
-import React, { useState } from 'react';
-import { Moon, ChevronDown, Globe2, Zap } from 'lucide-react';
+import { useState } from 'react';
+import { Moon } from 'lucide-react';
 import HomePage from './pages/HomePage';
 import SpecificationsPage from './pages/SpecificationsPage';
 import AboutPage from './pages/AboutPage';
+import './index.css';
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');

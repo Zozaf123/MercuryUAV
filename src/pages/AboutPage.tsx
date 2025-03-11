@@ -1,4 +1,3 @@
-import React from 'react';
 import { Award, Users, Rocket, Lightbulb, Globe, Zap, Clock, Target } from 'lucide-react';
 
 function AboutPage() {
@@ -75,21 +74,45 @@ function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Dr. Elena Reyes",
+                name: "Supreme Leader Tran",
                 role: "FOUNDER & CEO",
                 bio: "Former NASA aerospace engineer with 15 years of experience in autonomous systems.",
                 image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               },
               {
-                name: "Marcus Chen",
+                name: "Crouton Connoisseur",
                 role: "CTO",
-                bio: "AI specialist with a background in machine learning and computer vision systems.",
+                bio: "Specialist is crouton cuisine, with a 12 years of experience in financial and accounting systems.",
                 image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               },
               {
-                name: "Sarah Okonjo",
+                name: "User of ChatGPT",
                 role: "HEAD OF ENGINEERING",
-                bio: "Robotics expert specializing in propulsion systems and aerodynamic design.",
+                bio: "Robotics expert specializing in propulsion systems and aerodynamic design and the usage of artificial intelligence",
+                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              },
+              {
+                name: "Rhombus Man",
+                role: "DESIGN ENGINEERING",
+                bio: "A man who likes rhombuses, wants to be one, and makes them instead of engineering.",
+                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              },
+              {
+                name: "Kid From Polar Express",
+                role: "ENGINEER",
+                bio: "Likes to play with his planes unsupervised, he has a knife, and likes country music (eww).",
+                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              }, 
+              {
+                name: "Knows what the train is",
+                role: "ENGINEER",
+                bio: "Biggest strange vertical video fan..",
+                image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+              },
+              {
+                name: "3d analog Tetris Player",
+                role: "C3/CONOPs Lead",
+                bio: "Uses weird websites to play tetris, his mother and father don't let him use the internet, and volley ball enthusiast .",
                 image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
               }
             ].map((member, index) => (
